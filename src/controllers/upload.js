@@ -61,7 +61,7 @@ export default (ctx) => {
   // 保存成功
   console.log('fs.rename done')
   // 拼接url地址
-  result = SystemConfig.API_server_type + SystemConfig.API_server_host + ':' + SystemConfig.API_server_port + '/assets/uploads' + filename
+  result = SystemConfig.API_server_type + SystemConfig.API_server_host + ':' + SystemConfig.API_server_port + '/assets/uploads/' + filename
 
   // 返回结果
   ctx.body = result
